@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDatas>
+  
+  <testData>
+    <key></key>
+    <slTim>8</slTim>
+  </testData>
+
+  <testData>
+    <key>iphone</key>
+    <slTim>8</slTim>
+  </testData>
+  
+</testDatas>

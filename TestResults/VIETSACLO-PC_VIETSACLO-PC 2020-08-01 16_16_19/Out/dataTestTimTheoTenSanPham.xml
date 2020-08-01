@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDatas>
+  
+  <!--<testData>
+    <key>iphone</key>
+    <rdoIndex>2</rdoIndex>
+    <checkBox>1</checkBox>
+    <slTim>0</slTim>
+  </testData>
+
+  <testData>
+    <key>iphone</key>
+    <rdoIndex>2</rdoIndex>
+    <checkBox>0</checkBox>
+    <slTim>3</slTim>
+  </testData>-->
+
+  <testData>
+    <key></key>
+    <rdoIndex>0</rdoIndex>
+    <checkBox>0</checkBox>
+    <slTim>8</slTim>
+  </testData>
+
+  <!--<testData>
+    <key></key>
+    <rdoIndex>0</rdoIndex>
+    <checkBox>1</checkBox>
+    <slTim>6</slTim>
+  </testData>-->
+  
+</testDatas>

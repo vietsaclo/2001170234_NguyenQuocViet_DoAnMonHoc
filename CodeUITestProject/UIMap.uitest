@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="45c6b467-4332-46be-8e44-e4ea750d0d4d" AssemblyVersion="12.0.31101.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.18362.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.3.9600.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1366" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers" />
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <SetValueAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UICboxTimKiemWindow.UICboxTimKiemComboBox">
+      <ParameterName />
+      <Value Encoded="false">Tìm Theo Mã</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITbTimKiemWindow.UITbTimKiemEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="52" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITbTimKiemWindow.UITbTimKiemEdit1">
+      <ParameterName />
+      <Value Encoded="false">sp000000000000000001</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITìmKiếmWindow.UITìmKiếmButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="54" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod_TestTimSanPham">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIUCSanPhamWindow.UIUCSanPhamClient">
+      <ParameterName />
+      <PropertyName>ControlType</PropertyName>
+      <ExpectedValue>Client</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod_SoSanhUC">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIPnAnhSanPhamWindow.UIPnAnhSanPhamClient">
+      <ParameterName />
+      <PropertyName>ControlType</PropertyName>
+      <ExpectedValue>Client</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod_SoSanhPnAnhSanPhamBoSung">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIPnSanPhamsWindow.UIPnSanPhamsClient">
+      <ParameterName />
+      <PropertyName>ControlType</PropertyName>
+      <ExpectedValue>Client</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod_SoSanhSoLuongSanPhamTimBoSung">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UICboxTimKiemWindow.UICboxTimKiemComboBox">
+      <ParameterName />
+      <Value Encoded="false">Tìm Theo Tên</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetStateAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITrên5TriệuWindow.UITrên5TriệuRadioButton">
+      <ParameterName />
+      <State>Checked</State>
+    </SetStateAction>
+    <SetStateAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIDưới5TriệuTrên2TriệuWindow.UIDưới5TriệuTrên2TriệuRadioButton">
+      <ParameterName />
+      <State>Checked</State>
+    </SetStateAction>
+    <SetStateAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIDưới2TriệuWindow.UIDưới2TriệuRadioButton">
+      <ParameterName />
+      <State>Checked</State>
+    </SetStateAction>
+    <SetStateAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIGiáTiềnWindow.UIGiáTiềnCheckBox">
+      <ParameterName />
+      <State>Checked</State>
+    </SetStateAction>
+    <DragDropAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITbTimKiemWindow.UITbTimKiemEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIDưới5TriệuTrên2TriệuWindow.UIDưới5TriệuTrên2TriệuRadioButton</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="41" Y="11" />
+      <StopLocation X="79" Y="19" />
+    </DragDropAction>
+    <SetValueAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITbTimKiemWindow.UITbTimKiemEdit1">
+      <ParameterName />
+      <Value Encoded="false">iphone</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UITìmKiếmWindow.UITìmKiếmButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="26" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod_TestTimSanPhamTheoTen">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIUCSanPhamWindow.UIItemText">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="12" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod_TestTangSoLuongMua">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIUCSanPhamWindow.UIUCSanPhamClient">
+      <ParameterName />
+      <PropertyName>ControlType</PropertyName>
+      <ExpectedValue>Client</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIItem24000000Window.UITxtTongTienEdit">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>48,000,000</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIItem1CáiWindow.UITxtTongSoLuongEdit">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2 Cái</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod_TestTangSoLuong">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIUCSanPhamWindow.UIItemText1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod_TestGiamSoLuongMua">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFrmQuanLyWindow.UIMdiClientTabList.UIFrmBanHangWindow.UIFrmBanHangWindow1.UIPnAnhSanPhamWindow.UIPnAnhSanPhamClient">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="59" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIFrmChonKhachHangWindow.UIXácNhậnWindow.UIXácNhậnButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="40" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIThôngBáoDialog">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="291" Y="101" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="58" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod_Init_TestGiamSoLuongMua">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIFrmQuanLyWindow" FriendlyName="frmQuanLy" SpecialControlType="None" SessionId="525374">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>frmQuanLy</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">frmQuanLy</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="TabList" Id="UIMdiClientTabList" FriendlyName="MdiClient" SpecialControlType="None">
+              <TechnologyName>DevExpress.v20.1</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>frmQuanLy</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">MdiClient[0]</PropertyCondition>
+                <PropertyCondition Name="ClassName">MdiClient</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Window" Id="UIFrmBanHangWindow" FriendlyName="frmBanHang" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v20.1</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>frmQuanLy</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">frmBanHang</PropertyCondition>
+                    <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Window" Id="UIFrmBanHangWindow1" FriendlyName="frmBanHang" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>frmQuanLy</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="ControlName">frmBanHang</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Window" Id="UICboxTimKiemWindow" FriendlyName="cboxTimKiem" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">cboxTimKiem</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="ComboBox" Id="UICboxTimKiemComboBox" FriendlyName="cboxTimKiem" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UITbTimKiemWindow" FriendlyName="tbTimKiem" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">tbTimKiem</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITbTimKiemEdit" FriendlyName="tbTimKiem" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Edit" Id="UITbTimKiemEdit1" FriendlyName="tbTimKiem" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UITìmKiếmWindow" FriendlyName="Tìm Kiếm" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">btnTimKiem</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Button" Id="UITìmKiếmButton" FriendlyName="Tìm Kiếm" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Tìm Kiếm</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIUCSanPhamWindow" FriendlyName="UCSanPham" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">UCSanPham</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>100</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UIUCSanPhamClient" FriendlyName="UCSanPham" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>100</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Text" Id="UIItemText" FriendlyName="+" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">+</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Text</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Text" Id="UIItemText1" FriendlyName="-" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">-</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Text</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIPnAnhSanPhamWindow" FriendlyName="pnAnhSanPham" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">pnAnhSanPham</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>100</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UIPnAnhSanPhamClient" FriendlyName="pnAnhSanPham" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>100</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIPnSanPhamsWindow" FriendlyName="pnSanPhams" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">pnSanPhams</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>100</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UIPnSanPhamsClient" FriendlyName="pnSanPhams" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>100</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UITrên5TriệuWindow" FriendlyName="Trên 5 Triệu" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">rdoTren5Trieu</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="RadioButton" Id="UITrên5TriệuRadioButton" FriendlyName="Trên 5 Triệu" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Trên 5 Triệu</PropertyCondition>
+                                <PropertyCondition Name="ControlType">RadioButton</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIDưới5TriệuTrên2TriệuWindow" FriendlyName="Dưới 5 Triệu Trên 2 Triệu" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">rdoDuoi5Trieu</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="RadioButton" Id="UIDưới5TriệuTrên2TriệuRadioButton" FriendlyName="Dưới 5 Triệu Trên 2 Triệu" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Dưới 5 Triệu Trên 2 Triệu</PropertyCondition>
+                                <PropertyCondition Name="ControlType">RadioButton</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIDưới2TriệuWindow" FriendlyName="Dưới 2 Triệu" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">rdoDuoi2Trieu</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="RadioButton" Id="UIDưới2TriệuRadioButton" FriendlyName="Dưới 2 Triệu" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Dưới 2 Triệu</PropertyCondition>
+                                <PropertyCondition Name="ControlType">RadioButton</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIGiáTiềnWindow" FriendlyName="+ Giá Tiền" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">cbCongThemGiaTien</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="CheckBox" Id="UIGiáTiềnCheckBox" FriendlyName="+ Giá Tiền" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">+ Giá Tiền</PropertyCondition>
+                                <PropertyCondition Name="ControlType">CheckBox</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIItem24000000Window" FriendlyName="24,000,000" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">txtTongTien</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>100</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxtTongTienEdit" FriendlyName="txtTongTien" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Tổng Số Lượng: </PropertyCondition>
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>100</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Window" Id="UIItem1CáiWindow" FriendlyName="1 Cái" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>frmQuanLy</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="ControlName">txtTongSoLuong</PropertyCondition>
+                            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>100</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxtTongSoLuongEdit" FriendlyName="txtTongSoLuong" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>frmQuanLy</WindowTitle>
+                              </WindowTitles>
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>100</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIFrmChonKhachHangWindow" FriendlyName="frmChonKhachHang" SpecialControlType="None" SessionId="919488">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>frmChonKhachHang</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">frmChonKhachHang</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIXácNhậnWindow" FriendlyName="Xác Nhận" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>frmChonKhachHang</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">btnXacNhan</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIXácNhậnButton" FriendlyName="Xác Nhận" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>frmChonKhachHang</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Xác Nhận</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIThôngBáoWindow" FriendlyName="Thông Báo" SpecialControlType="None" SessionId="329452">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Thông Báo</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Thông Báo</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Dialog" Id="UIThôngBáoDialog" FriendlyName="Thông Báo" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Thông Báo</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="Name">Thông Báo</PropertyCondition>
+                <PropertyCondition Name="ControlType">Dialog</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIOKWindow" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Thông Báo</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">2</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Thông Báo</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">OK</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

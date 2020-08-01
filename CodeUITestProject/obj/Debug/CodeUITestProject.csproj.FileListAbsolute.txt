@@ -1,0 +1,5 @@
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\CodeUITestProject\bin\Debug\CodeUITestProject.dll
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\CodeUITestProject\bin\Debug\CodeUITestProject.pdb
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\CodeUITestProject\obj\Debug\CodeUITestProject.dll
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\CodeUITestProject\obj\Debug\CodeUITestProject.pdb
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\CodeUITestProject\obj\Debug\CodeUITestProject.csprojResolveAssemblyReference.cache

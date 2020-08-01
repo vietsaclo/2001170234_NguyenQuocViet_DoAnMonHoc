@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDatas>
+  
+  <testData>
+    <key>iphone</key>
+    <rdoIndex>2</rdoIndex>
+    <checkBox>1</checkBox>
+    <slTim>0</slTim>
+  </testData>
+  
+</testDatas>
