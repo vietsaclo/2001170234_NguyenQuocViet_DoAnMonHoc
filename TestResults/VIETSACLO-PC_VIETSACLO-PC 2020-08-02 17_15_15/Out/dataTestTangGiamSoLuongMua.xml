@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDatas>
+  
+  <testData>
+    <isTang>1</isTang>
+    <lbSLMua>SL Mua: 2</lbSLMua>
+    <tbTongTien>48,000,000</tbTongTien>
+    <tbTongSL>2 Cái</tbTongSL>
+  </testData>
+
+  <testData>
+    <isTang>1</isTang>
+    <lbSLMua>SL Mua: 3</lbSLMua>
+    <tbTongTien>72,000,000</tbTongTien>
+    <tbTongSL>3 Cái</tbTongSL>
+  </testData>
+
+  <testData>
+    <isTang>0</isTang>
+    <lbSLMua>SL Mua: 2</lbSLMua>
+    <tbTongTien>48,000,000</tbTongTien>
+    <tbTongSL>2 Cái</tbTongSL>
+  </testData>
+
+  <testData>
+    <isTang>0</isTang>
+    <lbSLMua>SL Mua: 1</lbSLMua>
+    <tbTongTien>24,000,000</tbTongTien>
+    <tbTongSL>1 Cái</tbTongSL>
+  </testData>
+  
+</testDatas>

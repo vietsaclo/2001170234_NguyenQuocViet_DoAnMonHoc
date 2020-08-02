@@ -3,3 +3,9 @@ D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\Un
 D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
 D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\obj\Debug\UnitTestProject.dll
 D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\obj\Debug\UnitTestProject.pdb
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\DAL_BLL.dll
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\DTO.dll
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\MyLibrary.dll
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\DAL_BLL.pdb
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\DTO.pdb
+D:\08DHTH1\Kiem Dinh Chat Luong Phan Mem\2001170234_NguyenQuocViet_DoAnMonHoc\UnitTestProject\bin\Debug\MyLibrary.pdb

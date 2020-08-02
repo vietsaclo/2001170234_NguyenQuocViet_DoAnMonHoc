@@ -1,0 +1,51 @@
+#--------------------------------------
+#          QUY ĐỊNH VỀ ĐỊNH DẠNG FILE
+#1. DÒNG NÀO CÓ DẤU # HOẶC RỖNG THÌ SẼ BỎ QUA.
+#2. Mô tả các thuộc tính Cho 1 test Data
+#2.1 [laTimTheoMa]: quy định là tìm theo mã hay tìm theo tên; = 1 nếu chọn tìm theo mã; = 0 thì ko chọn (bool)
+#2.2 [radioGiaTien]: quy định lọc theo giá tiền như nào; = 0 nếu nhỏ hơn 2tr; = 1 nếu nhỏ hơn 5tr; =2 thì trên 5tr (int [0-2])
+#2.3 [checkBoxGia]: quy định thuộc tính có check vào đơn giá để lọc tiếp hay không; = 0 nếu không check; = 1 thì check (bool)
+#2.4 [giaTri]: nhập giá trị để tìm (string)
+#2.5 [slTim]: kết quả số lượng tìm thấy mong muốn (int)
+#2.6 [maSPTims]: danh sách các mã sản phẩm đã tìm thấy ngăn cách bởi dấu ';'
+#--------------------------------------
+
+#Test Data 1
+laTimTheoMa=1
+radioGiaTien=0
+checkBoxGia=0
+giaTri=sp000000000000000001
+slTim=1
+maSPTims=sp000000000000000001
+
+#Test Data 2
+laTimTheoMa=0
+radioGiaTien=0
+checkBoxGia=0
+giaTri=iphone
+slTim=3
+maSPTims=sp000000000000000004;sp000000000000000005;sp000000000000000006
+
+#Test Data 3
+laTimTheoMa=0
+radioGiaTien=0
+checkBoxGia=0
+giaTri=laptop
+slTim=3
+maSPTims=sp000000000000000001;sp000000000000000002;sp000000000000000003
+
+#Test Data 4
+laTimTheoMa=0
+radioGiaTien=0
+checkBoxGia=1
+giaTri=laptop
+slTim=1
+maSPTims=sp000000000000000003
+
+#Test Data 5
+laTimTheoMa=0
+radioGiaTien=2
+checkBoxGia=1
+giaTri=laptop
+slTim=2
+maSPTims=sp000000000000000001;sp000000000000000002

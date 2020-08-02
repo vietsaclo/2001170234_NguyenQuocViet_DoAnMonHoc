@@ -1,0 +1,11 @@
+#--------------------------------------
+#          QUY ĐỊNH VỀ ĐỊNH DẠNG FILE
+#1. DÒNG NÀO CÓ DẤU # HOẶC RỖNG THÌ SẼ BỎ QUA.
+#--------------------------------------
+
+laTimTheoMa=1
+radioGiaTien=0
+checkBoxGia=0
+giaTri=sp000000000000000001
+slTim=1
+maSPTims=sp000000000000000001

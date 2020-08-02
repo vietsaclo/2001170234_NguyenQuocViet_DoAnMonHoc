@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDatas>
+  
+  <testData>
+    <ma>sp000000000000000001</ma>
+    <slTim>1</slTim>
+    <maHienThi>masp: sp000000000000000001</maHienThi>
+  </testData>
+
+  <testData>
+    <ma>sp000000000000000002</ma>
+    <slTim>1</slTim>
+    <maHienThi>masp: sp000000000000000002</maHienThi>
+  </testData>
+
+  <testData>
+    <ma>sp000000000000000002</ma>
+    <slTim>1</slTim>
+    <maHienThi>masp: sp000000000000000002</maHienThi>
+  </testData>
+  
+</testDatas>
